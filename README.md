@@ -33,7 +33,9 @@ git clone https://github.com/jensen1993/demo-ui-design.git ~/.codex/skills/demo-
 
 ## 更新
 
-仓库更新不会自动更新同事电脑上的副本。若是按上面的 Git 方式安装，且没有本地修改，可以执行：
+可以选择在同事的 macOS 或 Windows 电脑上配置每日自动检查，具体条件、安装和卸载方式见 [自动更新说明](AUTO-UPDATE.md)。每台电脑、每个独立 Skill 安装目录都需要本人配置一次；GitHub 更新后不保证正在运行的 AI 会话立即读取新版。
+
+也可以手动更新。若是按上面的 Git 方式安装，且没有本地修改，可以执行：
 
 ```bash
 git -C ~/.codex/skills/demo-ui-design pull --ff-only
